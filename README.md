@@ -1,8 +1,8 @@
 # Sus Bot Xonia
 Sus Bot for Xonia platform
 
-#Developing Status
+Developing Status
 Alpha
 
-#Licence
+Licence
 Apache 2
