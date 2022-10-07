@@ -3,6 +3,7 @@ import { account, message} from "./xonia.js"
 import  hellocmd  from "./sussycmds/hello"
 import  nftcmd  from "./sussycmds/nft"
 import  helpcmd  from "./sussycmds/help"
+import  copycmd  from "./sussycmds/copy"
 
 
 const susSession = async () => {
@@ -36,6 +37,12 @@ const susSession = async () => {
         await helpcmd(msg, sussy_secret, user);
 
     }
+        
+      if (text.startsWith("/copy")) {
+            const args: any = text.split(" ")[1];
+            await copycmd(msg, sussy_secret, user, args);
+        }
+        
     }
 })(); 
 
