@@ -1,4 +1,4 @@
-// Sus Bot extreme alpha
+// Sus Bot extreme alpha lol
 const { getToken } = require("xonia.js");
 const bot = new getToken("sus@msn.com", "1234");
 const { sendMessage } = require("xonia.js");
